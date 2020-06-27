@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2018, Venkatesh-Prasad Ranganath
- *
- * BSD 3-clause License
- *
- * Author: Venkatesh-Prasad Ranganath (rvprasad)
- *
- */
-
 scalacOptions += "-deprecation"
 
 ThisBuild / organization := "com.rvprasad"
@@ -26,7 +17,3 @@ fork in run := true
 test in assembly := {}
 assemblyJarName in assembly := s"snmc-assembly-${version.value}.jar"
 mainClass in assembly := Some("sorter.parallel.Main")
-
-//Test / parallelExecution := true
-//testOptions in Test += Tests.Argument(TestFrameworks.ScalaCheck,
-//    "-workers", "1", "-verbosity", "1")
