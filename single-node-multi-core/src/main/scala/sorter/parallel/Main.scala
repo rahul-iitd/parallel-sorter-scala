@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2018, Venkatesh-Prasad Ranganath
- *
- * BSD 3-clause License
- *
- * Author: Venkatesh-Prasad Ranganath (rvprasad)
- *
- */
-
 package sorter.parallel
 
 import org.apache.commons.cli.{DefaultParser, HelpFormatter, Options, ParseException, Option => CLIOption}
